@@ -11,9 +11,9 @@ The code includes CPU serial computing and four layer-by-layer optimized version
 
 The four optimizations of the GPU are used (2. shared memory, 3. memory coalesce + shared memory, 4. memory coalesce). The final result varies with machine performance, but it is nearly 200 times faster than the CPU, and the effect is remarkable.
 
-CUDA使用蒙特卡洛法计算Pi值（方法见：https://baike.baidu.com/item/%E8%92%99%E7%89%B9%C2%B7%E5%8D%A1%E7%BD%97%E6%96%B9%E6%B3%95/8664362?fr=aladdin ）
+CUDA使用蒙特卡洛法计算Pi值（方法见：https://zh.wikipedia.org/wiki/%E8%92%99%E5%9C%B0%E5%8D%A1%E7%BE%85%E6%96%B9%E6%B3%95 ）
 
-这里的目标不是计算更多的小数位数，而是通过使用CUDA（https://baike.baidu.com/item/CUDA/1186262?fr=aladdin ）来证明GPU计算的好处
+这里的目标不是计算更多的小数位数，而是通过使用CUDA（ https://zh.wikipedia.org/wiki/CUDA ）来证明GPU计算的好处
 
 运行环境：一台安装好CUDA并具有NVIDIA GPU显卡的电脑，CUDA的具体配置方法自行百度。
 
