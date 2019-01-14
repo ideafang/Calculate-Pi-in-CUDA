@@ -1,4 +1,5 @@
 # CUDA for Monte Carlo estimation of Pi
+## English
 CUDA code for Monte Carlo estimation of Pi(see https://en.wikipedia.org/wiki/Monte_Carlo_method)
 
 The goal here was not to set a new record for the number of decimal places, but rather to demonstrate the benefits of GPU computing, by using CUDA(see https://en.wikipedia.org/wiki/CUDA)to parallelize a traditional serial algorithm used to estimate Pi.
@@ -10,6 +11,8 @@ Using Monte Carlo with 2^25 random points to calculate estimation of Pi.the code
 The code includes CPU serial computing and four layer-by-layer optimized versions of the GPU. Use clock() to record the calculation time, and finally output the calculation results and time consumption of each version, thus reflecting the advantages of CUDA parallel computing.
 
 The four optimizations of the GPU are used (2. shared memory, 3. memory coalesce + shared memory, 4. memory coalesce). The final result varies with machine performance, but it is nearly 200 times faster than the CPU, and the effect is remarkable.
+
+## 中文
 
 CUDA使用蒙特卡洛法计算Pi值（方法见：https://zh.wikipedia.org/wiki/%E8%92%99%E5%9C%B0%E5%8D%A1%E7%BE%85%E6%96%B9%E6%B3%95 ）
 
